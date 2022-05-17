@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(66, 6, 36);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header > div {
+    background-color: violet;
+    flex-grow: 1;
+    margin: 5px 10px;
+
+}
+.header div:nth-child(2) {
+    flex-grow: 2;
+    background-color: white;
+}
+.header logo {
+    padding: 20px 0px;
+}
+.main {
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+}
+.footer {
+    background-color: rgba(14, 13, 13, 0.945);
+    color: white;
+}
+.main_left {
+    background-color: aqua;
+    flex-grow: 1;
+}
+.main_center {
+    background-color: rgba(198, 12, 223, 0.644);
+    flex-grow: 3;
+}
+.main_right {
+    background-color: cornflowerblue;
+    flex-grow: 1;
+}
+.header .more {
+    background-color: white;
+}

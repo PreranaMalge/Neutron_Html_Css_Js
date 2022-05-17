@@ -1,0 +1,45 @@
+<!Doctype html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div class="movie">
+            <p id="movie_name">My name is Khan</p>
+            <p id="tagline">And I am not a Terriest</p>
+            <span class="cast">Kajol</span>
+            <span class="cast">Shahrukh</span>
+            <br><br>
+            <button onclick="display_name(event)">click here to show my name</button>
+
+            <br><br>
+            <input type="text" id="your_name"/>
+            <button onclick="display_name_input()">click here to show my name</button>
+
+
+            <select onchange="select_fn()">
+                <option>India</option>
+                <option>Pakistan</option>
+                <option>Bangaladesh</option>
+                <option>China</option>
+            </select>
+
+            <ul onclick="temp_fn(event)">
+                <li>a</li>
+                <li>b</li>
+                <li>c</li>
+                <li>d</li>
+            </ul>
+
+            <button id="button_temp_1">Button_temp_1</button>
+
+            <!-- <button id="button_temp_1" onclick="fn_button_temp_1()">Button_temp_1</button> -->
+        </div>
+
+        <!-- youtube videoes -->
+
+        <!-- <iframe id="iframe_temp" src="https://www.newtonschool.co/" width="400" height="300"></iframe> -->
+
+        <script src="./js/dom.js"></script>
+    </body>
+</html>
